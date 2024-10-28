@@ -25,6 +25,7 @@ int main(void)
     const int ingameWidth = 640;
     const int ingameHeight = 360;
 
+    SetConfigFlags(FLAG_VSYNC_HINT);
     InitWindow(screenWidth, screenHeight, "Low Res Effect with CRT");
 
     RenderTexture2D lowres = LoadRenderTexture(ingameWidth, ingameHeight);
