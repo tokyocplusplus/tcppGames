@@ -3,7 +3,7 @@ in vec2 fragTexCoord;
 in vec4 fragColor;                 
 out vec4 finalColor;
 
-const vec2 size = vec2(960, 540);   // render size
+const vec2 size = vec2(1280, 720);   // render size
 const float samples = 10.0;          // pixels per axis; higher = bigger glow, worse performance
 const float quality = 1;             // lower = smaller glow, better quality
 
